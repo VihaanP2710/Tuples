@@ -1,12 +1,12 @@
 # function to check whether palindrome or not
 def palind(r):
     e = len(r) -1
-    S = 0
+    s = 0
 
     while(s<e):
         if(r[s] != r[e]):
             return False
-        S+=1
+        s+=1
         e -= 1
     return True
 
